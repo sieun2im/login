@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:rgb(247, 247, 247);">
+    <div id="box">
+        <h1 style="margin-top: 60px;">Welcome!</h1>
+        <p id="label">Username</p>
+        <form id="Username">
+            <input
+            required
+            type="text"
+            placeholder="search"/>
+        </form>
+        <p id="errorU"></p>
+        <p id="label">Email</p>
+        <form id="Email">
+            <input
+            required
+            type="text"
+            placeholder="search"/>
+        </form>
+        <p id="errorE"></p>
+        <p id="label">Password</p>
+        <form id="Password">
+            <input 
+            required
+            minlength="8" 
+            type="password"
+            placeholder="search"/>
+        </form>
+        <p id="errorP"></p>
+        <p id="label">Confirm Password</p>
+        <form id="ConfirmPassword">
+            <input
+            required
+            type="password"
+            placeholder="search"/>
+        </form>
+        <p id="errorC"></p>
+        <button id="Submit">Submit</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

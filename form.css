@@ -1,0 +1,9 @@
+input{
+    height: 30px;
+    border-radius: 10px;
+    margin-top:5px;
+    margin-bottom:10px;
+    width: 100%;
+    border: 2px solid gray; /* 기본 테두리 색상 */
+    
+}
